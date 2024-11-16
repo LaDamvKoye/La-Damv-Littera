@@ -1,0 +1,244 @@
+body {
+
+    font-family: 'Garamond', serif;
+
+    background-color: #f0e6d6; 
+
+    color: #4b3d2b;
+
+}
+
+.mensagem .usuario {
+    margin-right: 15px; /* Adiciona um espaço de 15px à direita do nome */
+}
+
+#logo1{
+    border-radius: 100px;
+}
+#logo{
+    margin-right: 300px;
+}
+header {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+    background-color: #6b4f4f; 
+ color: white;
+    padding: 20px;
+
+    text-align: center;
+
+}
+#cabeça{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: #ffffff; 
+
+}
+
+main {
+
+    padding: 20px;
+
+}
+
+
+    
+
+#text1{
+    
+    width: 900px;
+}
+.resenha {
+
+    border: 2px solid #8b5a2b; 
+
+    margin: 20px 0;
+
+    padding: 15px;
+
+    background-color: #fffaf0; 
+
+}
+
+.resenha img {
+
+    max-width: 150px; /*capas */
+
+    display: block;
+
+    margin: 10px 0;
+
+}
+
+footer {
+  color: white;
+    background-color: #6b4f4f;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+    position: relative;
+
+    bottom: 10;
+
+    width: 100%;
+
+}
+
+.redes-sociais a {
+
+    margin: 0 10px;
+    color: #ffffff; 
+
+}
+
+
+#meuBotao {
+
+    background-color:#8b5a2b; 
+
+    color: white; 
+
+    padding: 15px 32px; 
+
+    text-align: center; 
+
+    text-decoration: none; 
+
+    display: inline-block; 
+  font-size: 16px; 
+
+    margin: 4px 2px;
+
+    cursor: pointer; 
+
+    border: none; 
+
+    border-radius: 4px; 
+
+}
+
+#meuBotao:hover {
+
+    background-color: #f0e6d6 ; }
+
+
+
+
+
+    
+    
+/* Importando uma fonte fantasia */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Limelight&display=swap');
+
+/* Estilo geral para o container */
+#mensagens-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.mensagem {
+    display: flex;
+    align-items:flex-end;
+    max-width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Acme', 'Limelight', fantasy, sans-serif;
+    position: relative;
+    background: #d9cab3; 
+    color: #4b3f2f; 
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #b5a58d;
+}
+
+
+.mensagem .usuario {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #785a44; 
+}
+
+.mensagem .texto {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+.mensagem::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #d9cab3; 
+    z-index: 1;
+}
+
+
+.formulario {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.formulario input, .formulario textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid:red;
+    border-radius: 5px;
+    font-family:  sans-serif;
+}
+
+.formulario button {
+    background-color:#8b5a2b;
+    color: #0e0101;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    border-radius: none;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #b5a58d;
+}
+
+.fav-btn {
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
